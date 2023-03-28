@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Veterinaria </title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Veterinaria Huellitas</h1>
+        <nav>
+            <ul>
+                <li><a href="#presentacion-organizacion">Nosotros</a></li>
+                <li><a href="#presentacion-personal">Presentación</a></li>
+                <li><a href="#formulario-contacto">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+     <div class="titulo">
+        <h1>EL MEJOR SITIO</h1>
+        <P>¡para tus mascotas!</P>
+     </div>
+
+    <main>
+
+        <section id="presentacion-organizacion">
+            <h2>Nosotros</h2>
+            <p>Nuestra veterinaria es un lugar dedicado a brindar atención médica de alta calidad a los animales y
+                promover su bienestar. Ofrecemos servicios de consulta, diagnóstico y tratamiento para mascotas,
+                animales de granja y vida silvestre.. </p>
+            <div>
+                <img src="imagenes/mascotas.jpg" alt="mascotas felices" width="500px">
+
+                <p><strong>Ofrecemos una amplia gama de servicios veterinarios, incluyendo atención médica, cirugías,
+                        vacunaciones, peluquería y mucho más.
+                        En nuestra veterinaria, nos enfocamos en proporcionar un cuidado integral y personalizado para
+                        cada
+                        uno de nuestros pacientes, y estamos comprometidos con el bienestar de los animales.</strong>
+                </p>
+
+            </div>
+        </section>
+
+        <section id="presentacion-personal">
+            <h2>Presentación</h2>
+            <p>Contamos con un equipo de veterinarios altamente capacitados y apasionados que se esfuerzan por ofrecer
+                el mejor cuidado posible a nuestros pacientes. Además, nuestras instalaciones están equipadas con
+                tecnología de última generación para garantizar diagnósticos precisos y tratamientos efectivos.
+
+                En nuestra veterinaria, nos enfocamos en establecer una relación cercana y confiable con nuestros
+                clientes y sus mascotas. Nos esforzamos por brindar un ambiente cálido y acogedor para hacer que su
+                visita sea lo más agradable posible.
+
+                ¡Esperamos poder ayudarte a ti y a tus animales! </p>
+        </section>
+
+        <section id="formulario-contacto">
+            <h2>Contacto</h2>
+            <form id="paso-1">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" name="telefono" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="button" id="back-btn">volver</button>
+                <button type="button" id="next-btn">Siguiente</button>
+            </form>
+            <form id="paso-2">
+                <p>Resumen:</p>
+                <div id="summary"></div>
+            </form>
+            <div id="map">
+
+            </div>
+
+    </main>
+    
+</body>
+
+</html>
