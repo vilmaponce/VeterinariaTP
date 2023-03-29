@@ -4,142 +4,160 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  }
-  
-  /* Estilos generales */
-  
-  body {
+}
+
+/* Estilos generales */
+
+body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #333;
-	background-color: #957575;
-  }
-  
-  header {
-	background-color: #ebd7d7;
-	padding:2rem;
-	margin:5px;
+	background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(179,61,156,0.9473039215686274) 100%);background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(179,61,156,0.9473039215686274) 100%);
+}
+
+header {
+	
+	padding: 2rem;
+	margin: 5px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-image: url(imagenes/icons8-pets-64.png);
 	background-repeat: no-repeat;
-	
-  }
-  
-  h1 {
+	background-color:rgb(222, 132, 171) ;
+
+}
+
+h1 {
 	font-size: 2rem;
-	padding-left:50px;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  nav ul {
+	padding-left: 50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
 	display: flex;
 	list-style: none;
 
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
 	margin-right: 1rem;
-	
-  }
-  
-  nav ul li a {
+
+}
+
+nav ul li a {
 	color: #333;
 	text-decoration: none;
 	padding: 0.5rem;
 	border-radius: 5px;
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
 	background-color: #333;
 	color: #ffffff;
-	
-  }
-  
-  main {
+
+}
+
+main {
 	padding: 1rem;
-  }
-  
-  section {
+}
+
+section {
 	margin-bottom: 2rem;
-  }
-  div {
+}
+
+div {
 	display: flex;
 	align-items: center;
-	margin:30px ;
-  }
-  .titulo{
-	display: flex;
-	justify-content:center;
+	margin: 30px;
+}
 
-  }
-  
-  img {
+.titulo {
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+img {
 	max-width: 50%;
 	margin-right: 20px;
-	padding:10px;
-  }
- 
+	padding: 10px;
+}
 
-  
-  p {
+
+
+p {
 	font-size: 16px;
 	text-align: justify;
-  }
- 
-  
-  h2 {
+}
+
+
+h2 {
 	margin-bottom: 1rem;
-	text-decoration:underline;
-  }
-  
-  form label {
+	text-decoration: underline;
+}
+
+form label {
 	display: block;
 	margin-bottom: 0.5rem;
-  }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form textarea {
-	padding:0.6rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	padding: 0.6rem;
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	width: 100%;
 	margin-bottom: 1rem;
-  }
-  
-  form button[type="submit"],
-  form button[type="button"] {
+}
+
+form button[type="submit"],
+form button[type="button"] {
 	background-color: #333;
 	color: #fff;
 	padding: 0.5rem;
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
-  }
-  
-  form button[type="submit"]:hover,
-  form button[type="button"]:hover {
+}
+
+form button[type="submit"]:hover,
+form button[type="button"]:hover {
 	background-color: #474647;
-  }
-  
-  form {
+}
+
+form {
 	margin-bottom: 20px;
-  }
-  
-  #step-2 {
+}
+
+#step-2 {
 	display: none;
-  }
-  
-  #summary {
+}
+
+#summary {
 	border: 1px solid #ccc;
 	padding: 10px;
-  }
-  
-  #map {
-	height: 100%;
-  }
+}
 
-  
+
+footer {
+
+
+width: 100%;
+margin:5px;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+text-decoration: solid;
+color: #333;
+
+
+}
+svg{
+	vertical-align: middle;
+}
