@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
 /* Reset de estilos */
 
 * {
@@ -28,8 +30,10 @@ header {
 	background-image: url(imagenes/icons8-pets-64.png);
 	background-repeat: no-repeat;
 	background-color:rgb(222, 132, 171) ;
-
+    
+	
 }
+
 
 h1 {
 	font-size: 2rem;
@@ -140,7 +144,7 @@ form {
 }
 
 #summary {
-	border: 1px solid #ccc;
+	
 	padding: 10px;
 }
 
@@ -161,3 +165,5 @@ color: #333;
 svg{
 	vertical-align: middle;
 }
+
+
