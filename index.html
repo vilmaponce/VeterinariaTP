@@ -4,11 +4,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imagenes/android-chrome-512x512.png">
     <title>Veterinaria </title>
     <link rel="stylesheet" href="estilos.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-    
 
 
 </head>
@@ -26,8 +26,10 @@
         </nav>
     </header>
     <div class="titulo">
-        <h1>EL MEJOR SITIO</h1>
-        <P>¡para tus mascotas!</P>
+
+        <h1>EL MEJOR SITIO ¡para tus mascotas!</h1>
+
+
     </div>
 
     <main>
@@ -37,7 +39,7 @@
             <p>Nuestra veterinaria es un lugar dedicado a brindar atención médica de alta calidad a los animales y
                 promover su bienestar. Ofrecemos servicios de consulta, diagnóstico y tratamiento para mascotas,
                 animales de granja y vida silvestre.. </p>
-            <div>
+            <div class="imagen">
                 <img src="imagenes/mascotas.jpg" alt="mascotas felices" width="500px">
 
                 <p><strong>Ofrecemos una amplia gama de servicios veterinarios, incluyendo atención médica, cirugías,
@@ -64,9 +66,10 @@
         </section>
 
         <section id="formulario-contacto">
+
             <h2>Contacto</h2>
             <form id="paso-1">
-                <label for="nombre">Nombre</label>
+                <label for="nombre">Nombre y Apellido</label>
                 <input type="text" id="nombre" name="nombre" required>
 
                 <label for="email">Correo electrónico</label>
@@ -78,29 +81,26 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" name="mensaje"></textarea>
                 <button type="button" id="next-btn">Siguiente</button>
-                
+
             </form>
             <form id="paso-2">
-    
                 <div id="summary"></div>
-                
-            </form>
-        
 
+            </form>
     </main>
-     <script src="app.js"></script>
-     <script src="validacion.js"></script>
+
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="36" height="36"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="9" />
+            <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+        </svg>Todos los derechos Reservados_Grupo (2)_Argentina Programa 2023
+    </footer>
+    <script src="app.js"></script>
+    <script src="validacion.js"></script>
 
 </body>
 
-    <footer>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="36" height="36"
-        viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <circle cx="12" cy="12" r="9" />
-        <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-      </svg>Todos los derechos Reservados_Grupo (2)_Argentina Programa 2023
-    </footer>
-  
 </html>

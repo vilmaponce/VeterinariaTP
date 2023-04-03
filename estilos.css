@@ -23,8 +23,8 @@ body {
 
 header {
 
-	padding: 2rem;
-	margin: 5px;
+	padding:2rem;
+	margin:2px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -87,6 +87,13 @@ div {
 
 }
 
+.titulo :hover {
+	transform: scale(1.30);
+	box-shadow: 0 0 30px #ae00ff, 0 0 45px #ff00dd, 0 0 70px #ae00ff;
+	transition-delay: 0.2s;
+
+}
+
 img {
 	max-width: 50%;
 	margin-right: 20px;
@@ -138,17 +145,18 @@ form button[type="button"]:hover {
 
 form {
 	margin-bottom: 20px;
+	width: 1000px;
 }
 
 #paso-2 {
-	display:none;
+	display: none;
 }
 
 #summary {
 	border: solid black;
 	padding: 10px;
-	display:block;
-	
+	display: block;
+
 
 }
 
@@ -170,3 +178,10 @@ footer {
 svg {
 	vertical-align: middle;
 }
+
+
+  
+
+
+
+
