@@ -1,7 +1,6 @@
 
 
 const nextBtn = document.querySelector("#next-btn");
-const backBtn = document.querySelector("#back-btn");
 const paso1 = document.querySelector("#paso-1");
 const paso2 = document.querySelector("#paso-2");
 const summary = document.querySelector("#summary");
