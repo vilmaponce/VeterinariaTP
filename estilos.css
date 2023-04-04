@@ -14,7 +14,7 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #333;
+	color: #0a0a0a;
 	background: rgb(238, 174, 202);
 	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(179, 61, 156, 0.9473039215686274) 100%);
 	background: rgb(238, 174, 202);
@@ -30,12 +30,11 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-image: url(imagenes/icons8-pets-64.png);
+	background-position:10px ;
 	background-repeat: no-repeat;
 	background-color: rgb(222, 132, 171);
 
-
 }
-
 
 h1 {
 	font-size: 2rem;
@@ -99,13 +98,19 @@ img {
 	max-width: 50%;
 	margin-right: 20px;
 	padding: 10px;
+	background-color: #ccc;
+	box-shadow:0 0 30px #333,0 0 45px #335, 0 0 70px #339;
 }
 
 
-
 p {
-	font-size: 16px;
-	text-align: justify;
+	font-size:18px;
+	text-align:justify;
+	
+}
+strong{
+	
+	text-shadow:5px 3px 10px rgb(32, 23, 23);
 }
 
 
@@ -131,7 +136,7 @@ form textarea {
 
 form button[type="submit"],
 form button[type="button"] {
-	background-color: #333;
+	background-color: #1e1c1c;
 	color: #fff;
 	padding: 0.5rem;
 	border-radius: 5px;
@@ -141,7 +146,7 @@ form button[type="button"] {
 
 form button[type="submit"]:hover,
 form button[type="button"]:hover {
-	background-color: #474647;
+	background-color: #364886;
 }
 
 form {
