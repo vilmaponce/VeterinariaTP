@@ -24,7 +24,7 @@ nextBtn.addEventListener("click", function () {
 
   
   // mostrar mensaje de alerta
-  alert("¡GRACIAS POR VISITAR NUESTRA PAGINA Y CONTACTARNOS");
+  alert("¡GRACIAS POR VISITAR NUESTRA PÁGINA Y CONTACTARNOS!");
   
 });
 
